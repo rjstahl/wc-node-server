@@ -10,6 +10,7 @@ app.set('view engine', 'pug')
 
 // Tell node where out public/static assets are (css, js, images,etc.)
 app.use(express.static(path.join(__dirname, './public')))
+
 // set up our routes
 app.get('/', function(req, res){
     res.render('index', {tile:'Home'})
