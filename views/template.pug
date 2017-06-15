@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 html(lang="en")
-head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Document
-body
-  header
-    a(href="/") Home  
-    a(href="/about") About  
-    a(href="/contact") Contact 
-    
-  .content
-    h1 Home Page  
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title= `${tile}- Janet Stahl`
+        link(rel="stylesheet" href="/styles.css")
+        
+    body
+    header
+        a(href="/") Home  
+        a(href="/about") About  
+        a(href="/contact") Contact 
+        
+    .content
+        block content   
+            h1 Template Title
